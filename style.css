@@ -1,0 +1,38 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #222;
+}
+.header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #f9d976, #f39f86);
+}
+.logo {
+  width: 100px;
+}
+.gallery {
+  padding: 20px;
+  text-align: center;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+.gallery-grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+.map, .contact {
+  padding: 20px;
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #f9d976;
+}
